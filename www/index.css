@@ -1,0 +1,34 @@
+* {
+	box-sizing: border-box;	
+}
+
+
+.device {
+	box-shadow: 1px 1px 20px 0 rgba(0,0,0,.2);
+}
+
+.device-large {
+	position: absolute;	
+	top: 20px;
+	left: 20px;
+	width: 1249px;
+	height: 971px;	
+	padding: 195px 0 0 110px;
+	border-radius: 63px;	
+	background: url(http://responsinator.global.ssl.fastly.net/images/ipad-landscape.png) no-repeat top left;
+	background-position-x: -3px;
+}
+
+.device-small {
+	position: absolute;
+	bottom: 20px;
+	right: 20px;	
+	width: 367px;
+	height: 712px;
+	padding: 136px 0 0 23px; 
+	border-radius: 52px;		
+	background: url(http://responsinator.global.ssl.fastly.net/images/iphone-portrait.png) no-repeat top left;
+}
+
+
+
